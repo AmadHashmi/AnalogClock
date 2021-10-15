@@ -27,20 +27,6 @@ export class AnalogClockComponent implements OnInit, AfterViewInit {
   }
 
   updateClock() {
-    // this.secHand.nativeElement.style.transform =
-    //   'rotate(' + (date.getSeconds() / 60) * 360 + 'deg)';
-    // this.minHand.nativeElement.style.transform =
-    //   'rotate(' +
-    //   (date.getMinutes() / 60) * 360 +
-    //   (date.getSeconds() / 60) * 6 +
-    //   90 +
-    //   'deg)';
-    // this.hrHand.nativeElement.style.transform =
-    //   'rotate(' +
-    //   ((date.getHours() / 12) * 360 + (date.getMinutes() / 60) * 30) +
-    //   90 +
-    //   'deg)';
-    // console.log(date);
     var date = new Date();
     let hr = date.getHours();
     let min = date.getMinutes();
